@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Never Settle - OnePLus (India)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+        
+    <style>
+        /*Top section*/
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Baloo 2', cursive;
+        }
+        
+        .logo {
+            height: 45px;
+            width: 157px;
+            margin: 0px;
+            padding-right: 245px;
+        }
+        .center{
+            display: flex;
+            text-align: center;
+        }
+        .center h3{
+            font-weight: lighter;
+            padding-top: 8px;
+            transition: 0.3s ;
+            font-size: 15px;
+            text-align: center;
+            padding-right: 20px;
+            padding-left: 20px;
+            transition: 0.4s ease-in;
+            margin-bottom: 0px;
+        }
+        .center h3:hover{
+            font-weight: lighter;
+            transition: 0.3s ;
+            font-size: 15px;
+            text-align: center;
+            padding-right: 20px;
+            padding-left: 20px;
+            border-bottom: 4px solid red;
+            transition-delay:0.4s ease-in-out;
+            cursor:pointer;
+            margin-top: 0px;
+        }
+        /*middle section */
+        .middle {
+            margin: 0px;
+        }
+        /*middle-1*/
+        .middle-1 .heading1{
+            position: absolute;
+            color: whitesmoke;
+            top: 20%;
+            left: 20%;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .middle-1 .heading2{
+            color: whitesmoke;
+            position: absolute;
+            top:25%;
+            left: 20%;
+            font-size: 18px;
+        }
+        .middle-1 .heading3{
+            position: absolute;
+            top: 33%;
+            left: 20%;
+            color: whitesmoke;
+            font-size: 18px;
+            transition: all 0.5s ease;
+        }
+        .middle-1 .heading3:hover{
+            transition-delay: all 0.5s ease;
+            word-spacing: 2px;
+            cursor: pointer;
+            color: rgb(167, 179, 191);
+            text-decoration: underline;
+        }
+        /*middle-2*/
+        .middle-2 .heading1{
+            position: absolute;
+            color: whitesmoke;
+            top: 80%;
+            left: 20%;
+            font-weight: bold;
+            font-size: 30px; 
+        }
+        .middle-2 .heading2{
+            color: whitesmoke;
+            position: absolute;
+            top:87%;
+            left: 20%;
+            font-size: 18px;
+        }
+        .middle-2 .heading3{
+            color: whitesmoke;
+            position: absolute;
+            top:95%;
+            left: 20%;
+            font-size: 18px;
+        }
+        .middle-2 .heading4{
+            color: white;
+            position: absolute;
+            top:99%;
+            left: 20%;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 2px solid white;
+            padding: 5px;
+            transition: all 0.5s ease;
+        }
+        /*Basic hover*/
+        .middle-2 .heading4:hover{
+            border: 3px solid white;
+            color: white;
+            word-spacing: 5px;
+            background-color: rgb(194, 194, 194);
+            padding: 8px;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        /*middle-3*/
+        .middle-3 .heading1{
+            position: absolute;
+            color: black;
+            top: 170%;
+            left: 22%;
+            font-size: 35px; 
+        }
+        .middle-3 .heading2{
+            position: absolute;
+            color: black;
+            top: 183%;
+            left: 22%;
+            font-size: 23px; 
+        }
+        .middle-3 .heading3{
+            position: absolute;
+            color: black;
+            top: 190%;
+            left: 22%;
+            font-size: 23px; 
+            border-radius: 5px;
+            border: 2px solid black;
+        }
+        .middle-3 .heading3:hover{
+            font-size: 23px; 
+            border-radius: 5px;
+            border: 3px solid black; 
+            cursor: pointer;
+            padding: 5px;  
+        }
+        /*Advance hover*/
+        .middle .middle-3 p{
+            transition:  all 0.3s;
+            transform: translateY(50px);
+        }
+        .middle .middle-3:hover p{
+            transform: translateY(0);
+            transition-delay:  all 0.3s;
+        }
+        /*middle-4*/
+        .middle-4 .heading1{
+            position: absolute;
+            color: black;
+            top: 265%;
+            left: 18%;
+            font-size: 35px;
+        }
+        .middle-4 .heading2{
+            position: absolute;
+            color: black;
+            top: 273%;
+            left: 18%;
+            font-size: 22px;
+        }
+        .middle-4 .heading3{
+            position: absolute;
+            color: black;
+            top: 280%;
+            left: 18%;
+            font-size: 22px;
+        }
+        .middle-4 .heading4{
+            position: absolute;
+            color: black;
+            top: 285%;
+            left: 18%;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            transition: all 0.5s ease;
+        }
+        .middle-4 .heading4:hover{
+            padding: 8px;
+            transition-delay: all 0.5s ease;
+            border: 3px solid black;
+            cursor: pointer;
+        }
+        /*middle-5*/
+        .middle-5 .heading1{
+            position: absolute;
+            top: 350%;
+            left:18%;
+            color: white;
+            font-size: 35px;
+        }
+        .middle-5 .heading2{
+            position: absolute;
+            top: 357%;
+            left: 18%;
+            color: white;
+            font-size: 22px;
+        }
+        .middle-5 .heading3{
+            position: absolute;
+            top: 365%;
+            left: 18%;
+            color: white;
+            font-size: 22px;
+        }
+        .middle-5 .heading4{
+            position: absolute;
+            color: white;
+            top: 370%;
+            left: 18%;
+            font-size: 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            transition: all 0.5s ease;
+        }.middle-5 .heading4:hover{
+            padding: 8px;
+            transition-delay: all 0.5s ease;
+            border: 3px solid white;
+            cursor: pointer;
+        }
+        /*advance hover*/
+        .middle .middle-5 p{
+            transition: all 0.5s;
+            transform: translateY(60px);
+        }
+        .middle .middle-5:hover p{
+            transition-delay: all 0.5s;
+            transform: translateY(0);
+        }
+        /*middle-6*/
+        .middle-6 .heading1{
+            position: absolute;
+            top: 425%;
+            left: 29%;
+            color:black;
+            font-size: 35px;
+        }
+        .middle-6 .heading2{
+            position: absolute;
+            top: 433%;
+            left: 41%;
+            color: black;
+            font-size: 22px;
+        }
+        .middle-6 .heading3{
+            position: absolute;
+            color: black;
+            top: 440%;
+            left: 40%;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            transition: all 0.5s ease;
+        }
+        .middle-6 .heading3:hover{
+            padding: 8px;
+            transition-delay: all 0.5s ease;
+            border: 3px solid black;
+        }
+
+        .middle-6 .heading1-1{
+            position: absolute;
+            top: 425%;
+            left: 55%;
+            color:black;
+            font-size: 35px;
+        }
+        .middle-6 .heading2-2{
+            position: absolute;
+            top: 433%;
+            left: 55%;
+            color: black;
+            font-size: 22px;
+        }
+        .middle-6 .heading3-3{
+            position: absolute;
+            color: black;
+            top: 440%;
+            left: 55%;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            transition: all 0.5s ease;
+        }
+        .middle-6 .heading3-3:hover{
+            padding: 8px;
+            transition-delay: all 0.5s ease;
+            border: 3px solid black;
+        }
+
+        /*Zoom-in image hover process*/
+        .image{
+            display: inline-block;
+        }
+        figure{
+            overflow: hidden;
+        } 
+        .image img{
+            display: block;
+            height: 450px;
+            width: 675px;
+            margin: 0px;
+        }
+        .image .zoom-in img{
+            transform: scale(1);
+            transition: 0.3s ease-in-out;
+            
+        }
+        .image .zoom-in:hover img{
+            transform: scale(1.1);
+            background: rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+        
+        /*middle-7*/
+        .middle-7 .heading1{
+            position: absolute;
+            top: 500%;
+            left: 10%;
+            color: red;
+            font-size: 27px;
+        }
+        .middle-7 .heading2{
+            position: absolute;
+            top: 506%;
+            left: 10%;
+            color: red;
+            font-size: 24px;
+        }
+        .middle-7 .heading3{
+            position: absolute;
+            top: 511%;
+            left: 10%;
+            color: red;
+            font-size: 24px;
+            transition: all 0.5s ease;
+        }
+        .middle-7 .heading3:hover{
+            transition-delay: all 0.5s ease;
+            word-spacing: 2px;
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+
+        .middle-7 .heading1-1{
+            position: absolute;
+            top: 500%;
+            left: 60%;
+            color: white;
+            font-size: 27px;
+        }
+        .middle-7 .heading2-2{
+            position: absolute;
+            top: 506%;
+            left: 60%;
+            color: white;
+            font-size: 24px;
+            transition: all 0.5s ease;
+        }
+        .middle-7 .heading2-2:hover{
+            transition-delay: all 0.5s ease;
+            word-spacing: 2px;
+            cursor: pointer;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        /*middle-8*/
+        .middle-8 .heading1{
+            position: absolute;
+            top: 570%;
+            left: 15%;
+            color: black;
+            font-size: 25px;
+        }
+        .middle-8 .heading2{
+            position: absolute;
+            top: 575%;
+            left: 15%;
+            color: black;
+            font-size: 21px;
+            transition: all 0.5s ease;
+        }
+        .middle-8 .heading2:hover{
+            transition-delay: all 0.5s ease;
+            word-spacing: 2px;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .middle-8 .heading1-1{
+            position: absolute;
+            top: 570%;
+            left: 60%;
+            color: black;
+            font-size: 25px;
+        }
+        .middle-8 .heading2-2{
+            position: absolute;
+            top: 575%;
+            left: 60%;
+            color: black;
+            font-size: 21px;
+            transition: all 0.5s ease;
+        }
+        .middle-8 .heading2-2:hover{
+            transition-delay: all 0.5s ease;
+            word-spacing: 2px;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+/* flex box card process*/
+        .flex-box{
+            margin-left: 44px;
+            margin-right: 44px;
+            margin-bottom: 10px;
+            background-color: lightgrey;
+            display: flex;  
+        }
+        .card
+        {
+            width:33.33%;
+            padding:1rem;
+        }
+        .card-inner{
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img{
+            justify-content: center;
+            margin-left: 130px;
+        }
+        /* Email processing */
+        .email{
+            background-color: whitesmoke;
+            display: flex;
+            flex-direction: center;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .email .email-head{
+            padding-top: 40px;
+        }
+        .email-head .heading1{
+            font-size: 28px;
+        }
+        .email-head .heading2{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+        .email-head input{
+            width: 100%;
+            height: 100%;
+            color: #595f6e;
+            padding-top: 20px;
+            border: none;
+            font-size: 20px;
+            background-color: whitesmoke;
+            cursor: pointer;
+        }
+        .email-head .heading3{
+            border-bottom: 1px solid black;
+        }
+        .email .image1{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-left: 100px;
+            padding-bottom: 50px;
+        }
+        .email .image2{
+            display: flex;
+            flex-direction: column-reverse;
+            padding-top: 100px;
+        }
+
+        /*Footer - Phone - links*/
+        .phone-link{
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            padding-bottom:40px;
+        }
+        .phone-link table{
+            padding-left: 90px;
+        }
+        .phone-link tr th{
+            padding-top: 20px;
+            padding-right: 140px;
+            font-size: 20px;
+            padding-bottom:20px;
+        }
+        .phone-link tr td{
+            padding-bottom:25px;
+            color: #595f6e;
+        }
+        .phone-link tr td:hover{
+            color: black;
+            cursor: pointer;
+        }
+        /*payment*/
+        .payment {
+            display: flex;
+            justify-content: center;
+        }
+        .payment p{
+            padding-left: 30px;
+        }
+        .payment a{
+            font-size: 10px;
+        }
+        .payment .icon1{
+            color:  #595f6e;
+        }
+        .payment .icon2{
+            color:  #595f6e;
+        }
+        .payment .icon3{
+            color:  #595f6e;
+        }
+        .payment .icon1:hover{
+            color:  black;
+        }
+        .payment .icon2:hover{
+            color:  black;
+        }
+        .payment .icon3:hover{
+            color:  black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <header>
+                <div class="center">
+                    <img src="images/logo.png" class="logo">
+                    <h3>Phone</h3>
+                    <h3>TV</h3>
+                    <h3>Store</h3>
+                    <h3>About</h3>
+                    <h3>Support</h3>
+                    <h3>Community</h3>
+                    <h3>Find a Store!</h3>
+                </div>
+            </header>
+        </div>
+
+        <div class="middle">
+            <div class="middle-1">
+                <img src="images/image1.jpg" height="100%" width="100%">
+                <p class="heading1">OnePlus Store App.</p>
+                <p class="heading2">Seamless Shopping Experience.Quick Support. <br> Exclusive Benefits.</p>
+                <p class="heading3">Download now ></p>
+            </div>
+
+            <div class="middle-2">
+                <img src="images/imag2.jpg" height="650px" width="100%">
+                <p class="heading1">OnePlus 8T 5G</p>
+                <p class="heading2">Up to 10% cashback on select American Express &#174; <br>Cards</p>
+                <p class="heading3">From &#8377; 42 999</p>
+                <p class="heading4">Buy now</p>
+            </div>
+
+            <div class="middle-3">
+                <img src="images/image3.jpg" height="100%" width="100%" style="padding-bottom: 5px;" >
+                <p class="heading1">OnePlus Bullets Wireless <br>Z Bass Edition</p>
+                <p class="heading2"> &#8377; 1 999</p>
+                <p class="heading3">Buy now</p>
+            </div>
+
+            <div class="middle-4">
+                <img src="images/image4.jpg" height="100%" width="100%" style="padding:5px 0px 5px 0px ;" >
+                <p class="heading1">OnePlus Power Bank</p>
+                <p class="heading2">10000 mAH Battery | 18 Watts Fast Charge</p>
+                <p class="heading3">&#8377; 1 099</p>
+                <p class="heading4"> Buy now </p>
+            </div>
+
+            <div class="middle-5">
+                <img src="images/image5.jpg" height="650px" width="100%">
+                <p class="heading1">OnePlus Nord</p>
+                <p class="heading2">Pretty much everything you could ask for</p>
+                <p class="heading3">From &#8377; 24 999</p>
+                <p class="heading4">Buy now </p>
+            </div>
+
+            <div class="middle-6">
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image7.png" style="height: 550px;" >
+                        </figure> 
+                        <p class="heading1">OnePlus Buds Z</p>
+                        <p class="heading2">&#8377; 2 999</p>
+                        <p class="heading3">Buy now</p>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image6.png" style="height: 550px;">
+                        </figure>
+                        <p class="heading1-1">OnePlus Buds </p>
+                        <p class="heading2-2">&#8377; 4 990</p>
+                        <p class="heading3-3">Buy now</p>
+                    </div>
+                </div>               
+            </div>
+            
+            <div class="middle-7">
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image12.jpg" style="height: 500px;">
+                        </figure>  
+                        <p class="heading1">Free Red Cable Pro Membership</p>
+                        <p class="heading2">with American Express&#174; Cards</p>
+                        <p class="heading3">About Red Cable Club ></p>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image13.jpg" style="height: 500px;">
+                        </figure>
+                        <p class="heading1-1">OnePlus Education Benefits </p>
+                        <p class="heading2-2">Learn More ></p>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="middle-8">
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image9.png" style="height: 550px;">
+                        </figure> 
+                        <p class="heading1">OnePlus TV Y Series</p>
+                        <p class="heading2">Buy now ></p>
+                    </div>
+                </div>
+                <div class="image">
+                    <div class="zoom-in">
+                        <figure>
+                            <img src="images/image10.png" style="height: 550px;">
+                        </figure>
+                        <p class="heading1-1">OnePlus Wireless Charger</p>
+                        <p class="heading2-2">Buy now ></p>
+                    </div>
+                </div>               
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="flex-box">
+               <div class="card">
+                    <img src="images/indiatoday.png" style="height: 60px; width: 130px;">
+                    <div class="card-inner">
+                        <p>"The OnePlus Buds offer excellent battery life, and as we found out, these claims are quite accurate"</p>
+                    </div>
+               </div>
+               <div class="card">
+                <img src="images/fonearena.png" style="height: 60px; width: 130px;">
+                    <div class="card-inner">
+                        <p>"Overall, the audio performance is excellent. it balances both highs and lows perfectly"</p>
+                    </div>
+               </div> 
+               <div class="card">
+                <img src="images/International.png" style="height: 50px; width: 130px;">
+                    <div class="card-inner">
+                        <p>"OnePlus Buds look absolutely stunning, especially the bold Nord Blue colour"</p>
+                    </div>
+               </div>  
+            </div>
+
+            <div class="email">
+                <div class="image1">
+                    <img src="images/mail.png"  style="height: 150px; width: 220px;">
+                </div>
+                <div class="email-head">
+                    <p class="heading1">Always be the first to know.</p>
+                    <h4 class="heading2">Sign up for our newsletter!</h4>
+                    <p class="heading3"><input type="text" placeholder="Email address"></p>
+                </div>
+                <div class="image2">
+                    <img src="images/mailbox.png"  style="height: 290px; width: 360px;">
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="phone-link">
+            <table>
+                <tr>
+                    <th>Phones</th>
+                    <th>Accessories</th>
+                    <th>Programs</th>
+                    <th>Support</th>
+                    <th>Company</th>
+                </tr>
+                <tr>
+                    <td>OnePlus8T</td>
+                    <td>Cases & Protection</td>
+                    <td>Buyback Program</td>
+                    <td>Shopping FAQs</td>
+                    <td>About OnePlus</td>
+                </tr>
+                <tr>
+                    <td>OnePlus Nord</td>
+                    <td>Power & cables</td>
+                    <td>Referal Program</td>
+                    <td>User Manuals</td>
+                    <td>Community</td>
+                </tr>
+                <tr>
+                    <td>OnePlus 8 Pro</td>
+                    <td>Audio</td>
+                    <td>Shot on OnePlus</td>
+                    <td>Service Centers</td>
+                    <td>Careers</td>
+                </tr>
+                <tr>
+                    <td>OnePlus 8</td>
+                    <td>Bundles</td>
+                    <td>OnePlus Store App</td>
+                    <td>Repair Service</td>
+                    <td>Sustainability</td>
+                </tr>
+                <tr>
+                    <td>OnePlus 7T Pro</td>
+                    <td>Gear</td>
+                    <td>Education Benefits</td>
+                    <td>Conatct Us </td>
+                    <td>Press</td>
+                </tr>
+                <tr>
+                    <td>OnePlus 7T</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="payment">
+            <p>Cash on Delivery</p>
+            <p>Debit / Credit</p>
+            <p>Net-Banking</p>
+            <p>EMI</p>
+            <p>Wallet | </p>
+            
+            <a href="#" style="padding-top: 16px;padding-left: 50px;"><i class="fa fa-2x fa-phone">1800 102 8411 (Toll free)</i></a>
+            <a href="#" style="padding-top: 13px;padding-left: 50px;" class="icon1"><i class="fa fa-3x fa-facebook"></i></a>
+            <a href="#" style="padding-top: 13px;padding-left: 30px;" class="icon2"><i class="fa fa-3x fa-instagram"></i></a>        
+            <a href="#" style="padding-top: 13px;padding-left: 30px;" class="icon3"><i class="fa fa-3x fa-twitter"></i></a>    
+        </div>      
+        <hr>
+
+    </div>
+
+</body>
+
+</html>
+<!--
+
+        .flex-box img{
+            height: 80px; 
+            width: 150px;
+            display: flex;
+            
+        }
+        .flex-box p{
+            text-align: center;
+        }
+        .flex-box card{
+            display: flex;
+        }
+
+    
+    
+-->
